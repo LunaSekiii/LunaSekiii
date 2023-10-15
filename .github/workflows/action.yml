@@ -10,7 +10,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             # 仓库位置, 可以fork后用自己的仓库
-            - uses: LunaSekiii/LunaSekiii
+            - uses: lowlighter/metrics@latest
               with:
                   # GitHub token
                   token: ${{ secrets.METRICS_TOKEN }}
